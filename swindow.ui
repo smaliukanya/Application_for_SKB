@@ -1,0 +1,1585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SWindow</class>
+ <widget class="QMainWindow" name="SWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>785</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0.562, y1:0.625, x2:0.557143, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(19, 37, 58, 255));</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 0);
+	background-image: url(:/res/img/arrow.png);
+}
+QPushButton:pressed {                 
+	
+	background-image: url(:/res/img/arrowgr.png);
+};
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="minimumSize">
+         <size>
+          <width>750</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>1600</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>32</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+color: rgb(255, 255, 255);
+background-color: rgb(36, 42, 54);
+	
+image: url(:/res/img/error_red.png);
+	padding-left:25px;
+	image-position: left;
+	border-style: solid;
+	border-radius: 25px;
+	
+border-color: rgb(41, 47, 61);
+	border-width: 4px;</string>
+        </property>
+        <property name="text">
+         <string>         ОШИБКА</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: rgba(0, 0, 0, 0);
+	
+	background-image: url(:/res/img/homew.png);
+}
+QPushButton:pressed {                 
+	background-image: url(:/res/img/home.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QPushButton" name="Button_Combain">
+          <property name="minimumSize">
+           <size>
+            <width>250</width>
+            <height>120</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>300</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 18pt &quot;Nunito-Regular&quot;;
+}
+QPushButton:pressed {                 
+	background-color: rgb(220, 220, 220);
+    border: 3px solid #ffffff;
+}</string>
+          </property>
+          <property name="text">
+           <string>НАСТРОЙКИ
+КОМБАЙНА</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="Button_Tech">
+          <property name="minimumSize">
+           <size>
+            <width>250</width>
+            <height>120</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>300</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+}
+QPushButton:pressed {                 
+	
+	background-color: rgb(220, 220, 220);
+    border: 3px solid #ffffff;
+};</string>
+          </property>
+          <property name="text">
+           <string>ТЕХНИЧЕСКОЕ
+ОБСЛУЖИВАНИЕ</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="Button_revers">
+          <property name="minimumSize">
+           <size>
+            <width>250</width>
+            <height>120</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>300</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+}
+QPushButton:pressed {                 
+	
+	background-color: rgb(220, 220, 220);
+    border: 3px solid #ffffff;
+};</string>
+          </property>
+          <property name="text">
+           <string>РЕВЕРС
+ВЕНТИЛЯТОРА</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="Button_Terminal">
+          <property name="minimumSize">
+           <size>
+            <width>250</width>
+            <height>120</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>300</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+}
+QPushButton:pressed {                 
+	
+	background-color: rgb(220, 220, 220);
+    border: 3px solid #ffffff;
+};</string>
+          </property>
+          <property name="text">
+           <string>НАСТРОЙКИ 
+ТЕРМИНАЛА</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="Button_Blok">
+          <property name="minimumSize">
+           <size>
+            <width>250</width>
+            <height>120</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>300</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+}
+QPushButton:pressed {                 
+	
+	background-color: rgb(220, 220, 220);
+    border: 3px solid #ffffff;
+};</string>
+          </property>
+          <property name="text">
+           <string>БЛОК
+ПОТЕРЬ</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="maximumSize">
+         <size>
+          <width>1000</width>
+          <height>1000</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="one">
+         <attribute name="title">
+          <string>Комбайн</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="minimumSize">
+               <size>
+                <width>50</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string>Модель комбайна:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="comboBox">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>250</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>Тестовый</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Еще какой то</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QLabel" name="label_3">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string>Тип двигателя:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="comboBox_2">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>250</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>Без эл. упр.</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>С эл.упр.</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="QLabel" name="label_20">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Тип датчика давления &lt;/p&gt;&lt;p&gt;масла в двигателе:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="comboBox_5">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>250</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>Какой-то 1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Какой-то 2</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <item>
+             <widget class="QLabel" name="label_4">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string>Серийный номер:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_2">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>250</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <item>
+             <widget class="QLabel" name="label_5">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string>Ширина жатки:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>250</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_8">
+            <item>
+             <widget class="QLabel" name="label_6">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string>Меток на 1км:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_3">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>250</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_9">
+            <item>
+             <widget class="QLabel" name="label_7">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Пороговые обороты &lt;/p&gt;&lt;p&gt;двигателя(об/мин):&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_5">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>250</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+	
+
+</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_10">
+            <item>
+             <widget class="QLabel" name="label_8">
+              <property name="maximumSize">
+               <size>
+                <width>520</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Пороговые обороты молот-&lt;/p&gt;&lt;p&gt;ильного барабана(об/мин):&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_4">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>250</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="two">
+         <attribute name="title">
+          <string>Обслуживание</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="1" column="3">
+           <widget class="QLineEdit" name="lineEdit_6">
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="QLineEdit" name="lineEdit_7">
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QLabel" name="label_14">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+            </property>
+            <property name="text">
+             <string>Период ТО-2(ч):</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="3">
+           <widget class="QLineEdit" name="lineEdit_8">
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLabel" name="label_13">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+            </property>
+            <property name="text">
+             <string>Период ТО-1(ч):</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>50</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLabel" name="label_9">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+            </property>
+            <property name="text">
+             <string>Период ЕТО(ч):</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="3">
+           <spacer name="verticalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>300</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab_2">
+         <attribute name="title">
+          <string>вентилятор</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="3" column="0">
+           <widget class="QLineEdit" name="lineEdit_10">
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <layout class="QHBoxLayout" name="horizontalLayout_12">
+            <item>
+             <widget class="QLabel" name="label_15">
+              <property name="minimumSize">
+               <size>
+                <width>70</width>
+                <height>70</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Интервал времени                          &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="checkBox_2">
+              <property name="styleSheet">
+               <string notr="true">QCheckBox::indicator {
+	border-style: solid;
+	border-color: rgb(255, 255, 255);
+	border-width: 3px;
+  	width: 25px;
+  	height: 25px;
+}
+QCheckBox{
+	color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0);
+	font: 20pt &quot;Nunito-Regular&quot;;
+}
+QCheckBox::indicator:checked {
+    border: 3px solid;
+	background-color: rgb(36, 42, 54);
+}</string>
+              </property>
+              <property name="text">
+               <string>Вкл</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLineEdit" name="lineEdit_9">
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>300</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="0">
+           <layout class="QHBoxLayout" name="horizontalLayout_11">
+            <item>
+             <widget class="QLabel" name="label_10">
+              <property name="minimumSize">
+               <size>
+                <width>50</width>
+                <height>70</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string>Температура срабатывания</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="checkBox">
+              <property name="styleSheet">
+               <string notr="true">QCheckBox::indicator {
+	border-style: solid;
+	border-color: rgb(255, 255, 255);
+	border-width: 3px;
+  	width: 25px;
+  	height: 25px;
+}
+QCheckBox{
+	color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0);
+	font: 20pt &quot;Nunito-Regular&quot;;
+}
+QCheckBox::indicator:checked {
+    border: 3px solid;
+	background-color: rgb(36, 42, 54);
+}</string>
+              </property>
+              <property name="text">
+               <string>Вкл</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="2" column="1">
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab">
+         <attribute name="title">
+          <string>терминал</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="0" column="1">
+           <layout class="QHBoxLayout" name="horizontalLayout_13">
+            <item>
+             <widget class="QLabel" name="label_11">
+              <property name="minimumSize">
+               <size>
+                <width>50</width>
+                <height>70</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string>Язык системы:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="comboBox_3">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>250</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>Русский</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Английский</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_4">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item row="2" column="1">
+           <layout class="QHBoxLayout" name="horizontalLayout_15">
+            <item>
+             <widget class="QLabel" name="label_17">
+              <property name="minimumSize">
+               <size>
+                <width>50</width>
+                <height>70</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string>Громкость звука:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSlider" name="horizontalSlider">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>250</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QSlider{
+	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+}
+QSlider::groove:horizontal {
+    border-radius: 1px;       
+    height: 12px;              
+    margin: -1px 0;           
+}
+QSlider::handle:horizontal {
+	background-color: rgb(255, 255, 255);
+    border: 2px solid;
+	border-color: rgb(0, 0, 0);
+    height: 20px;     
+    width: 20px;
+    margin: -4px 0;     
+    border-radius: 10px  ;
+    padding: -4px 0px;  
+}
+QSlider::add-page:horizontal {
+    
+	background-color: rgb(255, 255, 255);
+}
+QSlider::sub-page:horizontal {
+    background: darkgray;
+}	</string>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_6">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item row="5" column="1">
+           <layout class="QHBoxLayout" name="horizontalLayout_18">
+            <item>
+             <widget class="QPushButton" name="Button_Blok_2">
+              <property name="minimumSize">
+               <size>
+                <width>250</width>
+                <height>120</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>300</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton{
+	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+}
+QPushButton:pressed {                 
+	
+	background-color: rgb(220, 220, 220);
+    border: 3px solid #ffffff;
+};</string>
+              </property>
+              <property name="text">
+               <string>ИЗМЕНИТЬ
+ПАРОЛЬ</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="Button_Blok_3">
+              <property name="minimumSize">
+               <size>
+                <width>250</width>
+                <height>120</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>300</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton{
+	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+}
+QPushButton:pressed {                 
+	
+	background-color: rgb(220, 220, 220);
+    border: 3px solid #ffffff;
+};</string>
+              </property>
+              <property name="text">
+               <string>СБРОСИТЬ ДО
+ЗАВОДСКИХ
+НСТРОЕК</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="4" column="1">
+           <layout class="QHBoxLayout" name="horizontalLayout_17">
+            <item>
+             <widget class="QLabel" name="label_19">
+              <property name="minimumSize">
+               <size>
+                <width>50</width>
+                <height>70</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string>Цветовая схема:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="comboBox_4">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>250</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	color: rgb(255, 255, 255);
+	font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>Ночь</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_8">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item row="3" column="1">
+           <layout class="QHBoxLayout" name="horizontalLayout_16">
+            <item>
+             <widget class="QLabel" name="label_18">
+              <property name="minimumSize">
+               <size>
+                <width>50</width>
+                <height>70</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string>Яркость экрана:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSlider" name="horizontalSlider_2">
+              <property name="minimumSize">
+               <size>
+                <width>238</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>250</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QSlider{
+	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+}
+QSlider::groove:horizontal {
+    border-radius: 1px;       
+    height: 12px;              
+    margin: -1px 0;           
+}
+QSlider::handle:horizontal {
+	background-color: rgb(255, 255, 255);
+    border: 2px solid;
+	border-color: rgb(0, 0, 0);
+    height: 20px;     
+    width: 20px;
+    margin: -4px 0;     
+    border-radius: 10px  ;
+    padding: -4px 0px;  
+}
+QSlider::add-page:horizontal {
+    
+	background-color: rgb(255, 255, 255);
+}
+QSlider::sub-page:horizontal {
+    background: darkgray;
+}	</string>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_7">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item row="1" column="1">
+           <layout class="QHBoxLayout" name="horizontalLayout_14">
+            <item>
+             <widget class="QLabel" name="label_16">
+              <property name="minimumSize">
+               <size>
+                <width>150</width>
+                <height>70</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(255, 255, 255);
+font: 20pt &quot;Nunito-Regular&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string>Голосовые сообщения:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Expanding</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>80</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="checkBox_3">
+              <property name="styleSheet">
+               <string notr="true">QCheckBox::indicator {
+	border-style: solid;
+	border-color: rgb(255, 255, 255);
+	border-width: 3px;
+  	width: 25px;
+  	height: 25px;
+}
+QCheckBox{
+	color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0);
+	font: 20pt &quot;Nunito-Regular&quot;;
+}
+QCheckBox::indicator:checked {
+    border: 3px solid;
+	background-color: rgb(36, 42, 54);
+}</string>
+              </property>
+              <property name="text">
+               <string>Вкл</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_5">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>210</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item row="1" column="0">
+           <spacer name="horizontalSpacer_9">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="widget">
+         <attribute name="title">
+          <string>Блок потерь</string>
+         </attribute>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/font/Nunito-Regular.ttf</file>
+        <file>res/img/setting.png</file>
+        <file>res/img/comb.png</file>
+        <file>res/img/help.png</file>
+        <file>res/img/tools.png</file>
+        <file>res/img/data.png</file>
+        <file>res/img/osc.png</file>
+        <file>res/img/car.png</file>
+        <file>res/img/rect.png</file>
+        <file>res/img/error.png</file>
+        <file>res/img/error_red.png</file>
+        <file>res/img/errorw.png</file>
+        <file>res/img/back.png</file>
+        <file>res/img/arrow.png</file>
+        <file>res/img/home.png</file>
+        <file>res/img/homew.png</file>
+        <file>res/img/settings_gray.png</file>
+        <file>res/img/arrowgr.png</file>
+    </qresource>
+</RCC>

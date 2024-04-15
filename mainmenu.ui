@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TWindow</class>
+ <widget class="QMainWindow" name="TWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Application</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0.562, y1:0.625, x2:0.557143, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(19, 37, 58, 255));
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>300</width>
+          <height>250</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	image: url(:/res/img/osc.png);
+	image-position:100px 50px;
+	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	padding-top: 30px;
+	color: rgb(255, 255, 255);
+	font: 24pt &quot;Nunito-Regular&quot;;
+}
+QPushButton:pressed {                 
+	
+	background-color: rgb(220, 220, 220);
+    border: 3px solid #ffffff;
+};</string>
+        </property>
+        <property name="text">
+         <string>
+
+КАЛИБРОВКИ</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>300</width>
+          <height>250</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	image: url(:/res/img/car.png);
+	image-position:100px 50px;
+	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	padding-top: 20px;
+	color: rgb(255, 255, 255);
+	font: 24pt &quot;Nunito-Regular&quot;;
+}
+QPushButton:pressed {                 
+	
+	background-color: rgb(220, 220, 220);
+    border: 3px solid #ffffff;
+};</string>
+        </property>
+        <property name="text">
+         <string>
+
+РЕЖИМ 
+РАБОТЫ</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>300</width>
+          <height>250</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	image: url(:/res/img/comb.png);
+	image-position:100px 50px;
+	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	padding-top: 30px;
+	color: rgb(255, 255, 255);
+	font: 24pt &quot;Nunito-Regular&quot;;
+}
+QPushButton:pressed {                 
+	background-color: rgb(220, 220, 220);
+    border: 3px solid #ffffff;
+};</string>
+        </property>
+        <property name="text">
+         <string>
+
+ДАТЧИКИ</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="5" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>300</width>
+          <height>250</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	image: url(:/res/img/tools.png);
+	image-position:100px 50px;
+	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	padding-top: 30px;
+	color: rgb(255, 255, 255);
+	font: 22pt &quot;Nunito-Regular&quot;;
+}
+QPushButton:pressed {                 
+	
+	background-color: rgb(220, 220, 220);
+    border: 3px solid #ffffff;
+};</string>
+        </property>
+        <property name="text">
+         <string>
+
+ТЕХНИЧЕСКОЕ
+ОБСЛУЖИВАНИЕ</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_8">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>300</width>
+          <height>250</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:26pt; color:#ffffff;&quot;&gt;СТАТИЧЕСКИЕ &lt;br/&gt;ДАННЫЕ &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="whatsThis">
+         <string>&lt;p&gt;СТАТИЧЕСКИЕ &lt;br&gt; ДАННЫЕ</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	image: url(:/res/img/data.png);
+	image-position:100px 50px;
+	background-color: rgb(36, 42, 54);
+	border-style: solid;
+	border-color: rgb(41, 47, 61);
+	border-width: 5px;
+	padding-top: 20px;
+	color: rgb(255, 255, 255);
+	font: 24pt &quot;Nunito-Regular&quot;;
+}
+QPushButton:pressed {                 
+	background-color: rgb(220, 220, 220);
+    border: 3px solid #ffffff;
+};</string>
+        </property>
+        <property name="text">
+         <string>
+
+СТАТИЧЕСКИЕ
+ДАННЫЕ</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="helpButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>300</width>
+          <height>250</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+  	background-color: rgb(36, 42, 54);
+	padding-top:30px;
+	image: url(:/res/img/help.png);
+	image-position:100px 50px;
+  	border-style: solid;
+  	border-color: rgb(41, 47, 61);
+  	border-width: 5px;
+  	color: rgb(255, 255, 255);
+	font: 24pt &quot;Nunito-Regular&quot;;
+}
+QPushButton:pressed {                 
+ 	background-color: rgb(220, 220, 220);
+    border: 3px solid #ffffff;
+};</string>
+        </property>
+        <property name="text">
+         <string>
+
+ПОМОЩЬ</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="4" column="0">
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="1" column="0">
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="6" column="0">
+     <spacer name="verticalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 0);
+	background-image: url(:/res/img/arrow.png);
+}
+QPushButton:pressed {                 
+	
+	background-image: url(:/res/img/arrowgr.png);
+};
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="minimumSize">
+         <size>
+          <width>750</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>1600</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>32</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+color: rgb(255, 255, 255);
+background-color: rgb(36, 42, 54);
+	
+image: url(:/res/img/error_red.png);
+	padding-left:25px;
+	image-position: left;
+	border-style: solid;
+	border-radius: 25px;
+	
+border-color: rgb(41, 47, 61);
+	border-width: 4px;</string>
+        </property>
+        <property name="text">
+         <string>         ОШИБКА</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url(:/res/img/setting.png);
+}
+QPushButton:pressed {                 
+	background-image: url(:/res/img/settings_gray.png);
+};</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
